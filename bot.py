@@ -21,9 +21,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ─── مفاتيح API ────────────────────────────────────────────
-TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
-GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
-ALLOWED_USER_ID = int(os.environ.get("ALLOWED_USER_ID", "0"))
+TELEGRAM_TOKEN = os.environ["8946579180:AAGDJD4WL_8ZNaII7jiD8-27hAOao5HqBfo"]
+GEMINI_API_KEY = os.environ["AQ.Ab8RN6KRZctnaRjPowOAk7AlwkeApOLmGKuXqsaAZ4Xz4y6_Qw"]
+ALLOWED_USER_ID = int(os.environ.get("8946579180", "0"))
 PORT = int(os.environ.get("PORT", "8000"))
 
 # ─── إعدادات الإعلانات ─────────────────────────────────────
@@ -33,13 +33,11 @@ ADS = [
     {
         "text": "📢 هل تحب الأنمي؟ انضم لقناتنا للمزيد من التوصيات يومياً!",
         "button_text": "📺 انضم للقناة",
-        "button_url": "https://t.me/اسم_قناتك",  # ← غيّر هذا
-    },
+        "button_url": "https://t.me/karba3_40"
     {
         "text": "🎌 قناة الأنمي والأفلام — أفضل التوصيات كل يوم، انضم الآن!",
         "button_text": "🔔 اشترك مجاناً",
-        "button_url": "https://t.me/اسم_قناتك",  # ← غيّر هذا
-    },
+        "button_url": "https://t.me/karba3_40"    },
 ]
 
 # ─── إعداد Gemini ───────────────────────────────────────────
