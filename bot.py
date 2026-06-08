@@ -24,7 +24,7 @@ logger = logging.getLogger(__name__)
 TELEGRAM_TOKEN = os.environ["8946579180:AAGDJD4WL_8ZNaII7jiD8-27hAOao5HqBfo"]
 GEMINI_API_KEY = os.environ["AQ.Ab8RN6KRZctnaRjPowOAk7AlwkeApOLmGKuXqsaAZ4Xz4y6_Qw"]
 ALLOWED_USER_ID = int(os.environ.get("8946579180", "0"))
-PORT = int(os.environ.get("PORT", "8000"))
+PORT = int(os.environ.get("PORT", "8080"))
 
 # ─── إعدادات الإعلانات ─────────────────────────────────────
 AD_EVERY_N_REPLIES = 5
